@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Markup>
+	<Topic Guid="b8ea12b9-fd1f-486a-b80e-976155099a45" TopicType="Issue" TopicStatus="Active">
+		<Title>Change Door Material</Title>
+		<Priority>Normal</Priority>
+		<Index>6</Index>
+		<CreationDate>2022-01-16T16:29:51+00:00</CreationDate>
+		<CreationAuthor>schulz@dc.rwth-aachen.de</CreationAuthor>
+		<ModifiedDate>2022-01-16T16:29:51+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+		<AssignedTo>schulz@dc.rwth-aachen.de</AssignedTo>
+	</Topic>
+	<Comment Guid="cc0fa8e2-5c83-4416-a0ac-b9efdd901ee7">
+		<Date>2022-01-16T16:29:51+00:00</Date>
+		<Author>schulz@dc.rwth-aachen.de</Author>
+		<Comment>Door is not made of glass</Comment>
+		<Viewpoint Guid="d4cb3988-8428-41ac-8791-166849fe063c" />
+		<ModifiedDate>2022-01-16T16:29:51+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+	</Comment>
+	<Viewpoints Guid="d4cb3988-8428-41ac-8791-166849fe063c">
+		<Viewpoint>viewpoint.bcfv</Viewpoint>
+		<Snapshot>snapshot.png</Snapshot>
+	</Viewpoints>
+</Markup>

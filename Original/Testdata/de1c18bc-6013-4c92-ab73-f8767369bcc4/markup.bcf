@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Markup>
+	<Topic Guid="de1c18bc-6013-4c92-ab73-f8767369bcc4" TopicType="Issue" TopicStatus="Active">
+		<Title>Ceiling missing</Title>
+		<Priority>Normal</Priority>
+		<Index>1</Index>
+		<CreationDate>2022-01-16T16:25:49+00:00</CreationDate>
+		<CreationAuthor>schulz@dc.rwth-aachen.de</CreationAuthor>
+		<ModifiedDate>2022-01-16T16:25:49+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+		<AssignedTo>schulz@dc.rwth-aachen.de</AssignedTo>
+	</Topic>
+	<Comment Guid="72d5431b-4772-4f69-b0a0-b6eb28eafc87">
+		<Date>2022-01-16T16:25:49+00:00</Date>
+		<Author>schulz@dc.rwth-aachen.de</Author>
+		<Comment></Comment>
+		<Viewpoint Guid="d6d2ef83-8ae8-4d38-863d-d8da84e4cf66" />
+		<ModifiedDate>2022-01-16T16:25:49+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+	</Comment>
+	<Viewpoints Guid="d6d2ef83-8ae8-4d38-863d-d8da84e4cf66">
+		<Viewpoint>viewpoint.bcfv</Viewpoint>
+		<Snapshot>snapshot.png</Snapshot>
+	</Viewpoints>
+</Markup>

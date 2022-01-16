@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Markup>
+	<Topic Guid="2bd6aab8-c800-42b0-86e1-eb1f7980a83c" TopicType="Issue" TopicStatus="Active">
+		<Title>Wrong Door Height</Title>
+		<Priority>Normal</Priority>
+		<Index>4</Index>
+		<CreationDate>2022-01-16T16:27:55+00:00</CreationDate>
+		<CreationAuthor>schulz@dc.rwth-aachen.de</CreationAuthor>
+		<ModifiedDate>2022-01-16T16:27:55+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+		<AssignedTo>schulz@dc.rwth-aachen.de</AssignedTo>
+	</Topic>
+	<Comment Guid="5eb8fe10-cd92-4a9e-a215-a58c797739f9">
+		<Date>2022-01-16T16:27:55+00:00</Date>
+		<Author>schulz@dc.rwth-aachen.de</Author>
+		<Comment>The doors are not set properly</Comment>
+		<Viewpoint Guid="04ccda2c-b96f-4464-b549-15eded35bc04" />
+		<ModifiedDate>2022-01-16T16:27:55+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+	</Comment>
+	<Viewpoints Guid="04ccda2c-b96f-4464-b549-15eded35bc04">
+		<Viewpoint>viewpoint.bcfv</Viewpoint>
+		<Snapshot>snapshot.png</Snapshot>
+	</Viewpoints>
+</Markup>

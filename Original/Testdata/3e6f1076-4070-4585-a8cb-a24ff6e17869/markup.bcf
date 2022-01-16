@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Markup>
+	<Topic Guid="3e6f1076-4070-4585-a8cb-a24ff6e17869" TopicType="Issue" TopicStatus="Active">
+		<Title>Missing Window</Title>
+		<Priority>Normal</Priority>
+		<Index>3</Index>
+		<CreationDate>2022-01-16T16:27:05+00:00</CreationDate>
+		<CreationAuthor>schulz@dc.rwth-aachen.de</CreationAuthor>
+		<ModifiedDate>2022-01-16T16:27:05+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+		<AssignedTo>schulz@dc.rwth-aachen.de</AssignedTo>
+	</Topic>
+	<Comment Guid="58328755-903f-46eb-8f94-ed481d5b0f46">
+		<Date>2022-01-16T16:27:05+00:00</Date>
+		<Author>schulz@dc.rwth-aachen.de</Author>
+		<Comment>Please add the window in the office.</Comment>
+		<Viewpoint Guid="b0bb8e67-a147-489f-b256-27c4f0765cdc" />
+		<ModifiedDate>2022-01-16T16:27:05+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+	</Comment>
+	<Comment Guid="cdbb1c8c-8708-479f-9026-9a90ba8fe09c">
+		<Date>2022-01-16T16:31:12+00:00</Date>
+		<Author>schulz@dc.rwth-aachen.de</Author>
+		<Comment>Fixed in new version</Comment>
+		<Viewpoint Guid="b0bb8e67-a147-489f-b256-27c4f0765cdc" />
+		<ModifiedDate>2022-01-16T16:31:12+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+	</Comment>
+	<Viewpoints Guid="b0bb8e67-a147-489f-b256-27c4f0765cdc">
+		<Viewpoint>viewpoint.bcfv</Viewpoint>
+		<Snapshot>snapshot.png</Snapshot>
+	</Viewpoints>
+</Markup>

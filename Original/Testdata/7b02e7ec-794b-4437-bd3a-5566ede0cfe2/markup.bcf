@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Markup>
+	<Topic Guid="7b02e7ec-794b-4437-bd3a-5566ede0cfe2" TopicType="Issue" TopicStatus="Active">
+		<Title>Wall is too long</Title>
+		<Priority>Normal</Priority>
+		<Index>5</Index>
+		<CreationDate>2022-01-16T16:29:03+00:00</CreationDate>
+		<CreationAuthor>schulz@dc.rwth-aachen.de</CreationAuthor>
+		<ModifiedDate>2022-01-16T16:29:03+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+		<AssignedTo>schulz@dc.rwth-aachen.de</AssignedTo>
+	</Topic>
+	<Comment Guid="2db2a8af-47a3-4eb4-9550-5aaa8538617c">
+		<Date>2022-01-16T16:29:03+00:00</Date>
+		<Author>schulz@dc.rwth-aachen.de</Author>
+		<Comment>Please trim the wall. It only reaches to the end of the office</Comment>
+		<Viewpoint Guid="7f4abc93-822f-4292-8cac-b2a6167df8ca" />
+		<ModifiedDate>2022-01-16T16:29:03+00:00</ModifiedDate>
+		<ModifiedAuthor>schulz@dc.rwth-aachen.de</ModifiedAuthor>
+	</Comment>
+	<Viewpoints Guid="7f4abc93-822f-4292-8cac-b2a6167df8ca">
+		<Viewpoint>viewpoint.bcfv</Viewpoint>
+		<Snapshot>snapshot.png</Snapshot>
+	</Viewpoints>
+</Markup>

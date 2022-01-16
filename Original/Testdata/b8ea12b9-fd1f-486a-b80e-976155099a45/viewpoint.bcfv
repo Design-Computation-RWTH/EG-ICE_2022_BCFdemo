@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualizationInfo Guid="d4cb3988-8428-41ac-8791-166849fe063c">
+	<Components>
+		<ViewSetupHints SpacesVisible="false" SpaceBoundariesVisible="false" OpeningsVisible="false" />
+		<Selection>
+			<Component IfcGuid="27SGVpyeX4APp1RyTgWABi" />
+		</Selection>
+		<Visibility DefaultVisibility="false">
+			<Exceptions>
+				<Component IfcGuid="27SGVpyeX4APp1RyTgWABi" />
+			</Exceptions>
+		</Visibility>
+	</Components>
+	<PerspectiveCamera>
+		<CameraViewPoint>
+			<X>12.117270469665527</X>
+			<Y>-1.7721502780914307</Y>
+			<Z>1.7010196447372437</Z>
+		</CameraViewPoint>
+		<CameraDirection>
+			<X>0.55578327178955078</X>
+			<Y>0.82984399795532227</Y>
+			<Z>-0.049883842468261719</Z>
+		</CameraDirection>
+		<CameraUpVector>
+			<X>0.027746941894292831</X>
+			<Y>0.041454125195741653</Y>
+			<Z>0.99875509738922119</Z>
+		</CameraUpVector>
+		<FieldOfView>60</FieldOfView>
+	</PerspectiveCamera>
+</VisualizationInfo>
