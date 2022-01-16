@@ -1,0 +1,35 @@
+@prefix pod:  	    <http://example.org/pod/bcfOWL-testdata/8b71315b-7db2-4b35-a1e9-fcddaf8556f5> .
+@prefix xsd: 	    <http://www.w3.org/2001/XMLSchema#> .
+@prefix bcfOWL:     <http://lbd.arch.rwth-aachen.de/bcfOWL/> .
+
+pod:project
+        a       bcfOWL:Project ;
+        bcfOWL:hasGuid
+                "8b71315b-7db2-4b35-a1e9-fcddaf8556f5" ;
+        bcfOWL:hasLabels
+                pod:Documentation ,
+                pod:Architecture ;
+        bcfOWL:hasName
+                "bcfOWL-testdata" ;
+        bcfOWL:hasPriority
+                pod:Low ,
+                pod:Medium ,
+                pod:High ;
+        bcfOWL:hasStage
+                pod:Documentation_Phase ,
+                pod:Design_Phase ,
+                pod:Contruction_Phase ;
+        bcfOWL:hasTopicStatus
+                pod:Active ,
+                pod:Closed ,
+                pod:Resolved ;
+        bcfOWL:hasTopicType
+                pod:Information ,
+                pod:Error ,
+                pod:Documentation ,
+                pod:Test ;
+        bcfOWL:hasUser
+                #### TODO: Add webIDs ####
+                 .
+
+#### TODO: Add extension data ####
