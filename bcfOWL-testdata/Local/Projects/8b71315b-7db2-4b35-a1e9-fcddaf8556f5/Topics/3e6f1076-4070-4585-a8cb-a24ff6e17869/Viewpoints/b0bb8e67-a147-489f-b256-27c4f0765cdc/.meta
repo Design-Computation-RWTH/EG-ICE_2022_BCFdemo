@@ -13,7 +13,7 @@ viewpointInst:
         bcfOWL:hasPerspectiveCamera
                 viewpointInst:PerspectiveCamera_inst ;
         bcfOWL:hasProject
-                projectInst:project ;
+                projectInst: ;
         bcfOWL:hasSnapshot
                 <http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/Topics/3e6f1076-4070-4585-a8cb-a24ff6e17869/Viewpoints/b0bb8e67-a147-489f-b256-27c4f0765cdc/snapshot.png> ; #TODO: Check in OWL
         bcfOWL:hasSnapshotType

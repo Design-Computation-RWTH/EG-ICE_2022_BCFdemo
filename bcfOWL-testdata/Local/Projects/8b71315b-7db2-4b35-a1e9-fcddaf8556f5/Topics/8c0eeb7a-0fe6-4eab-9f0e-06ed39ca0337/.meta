@@ -7,7 +7,7 @@
 topicInst:
         a       bcfOWL:Topic ;
         bcfOWL:hasAssignedTo
-                <http://example.org/Jyrki/profile/card#me>
+                <http://example.org/Jyrki/profile/card#me> ;
         bcfOWL:hasCreationAuthor
                 <http://example.org/Oliver/profile/card#me> ;
         bcfOWL:hasCreationDate
