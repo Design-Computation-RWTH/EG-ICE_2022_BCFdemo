@@ -1,0 +1,43 @@
+@prefix projectInst:    <> .
+@prefix xsd: 	        <http://www.w3.org/2001/XMLSchema#> .
+@prefix bcfOWL:         <http://lbd.arch.rwth-aachen.de/bcfOWL/> .
+
+projectInst:
+        a       bcfOWL:Project ;
+        bcfOWL:hasGuid
+                "8b71315b-7db2-4b35-a1e9-fcddaf8556f5" ;
+        bcfOWL:hasName
+                "bcfOWL-testdata" ;
+        bcfSolid:hasTopics #TODO: Create ontology
+                </Topics> ;
+        bcfSolid:hasComments; 
+        bcfOWL:hasLabels
+                projectInst:Documentation ,
+                projectInst:Architecture ;
+        bcfOWL:hasPriority
+                projectInst:Low ,
+                projectInst:Medium ,
+                projectInst:High ;
+        bcfOWL:hasStage
+                projectInst:Documentation_Phase ,
+                projectInst:Design_Phase ,
+                projectInst:Contruction_Phase ;
+        bcfOWL:hasTopicStatus
+                projectInst:Active ,
+                projectInst:Closed ,
+                projectInst:Resolved ;
+        bcfOWL:hasTopicType
+                projectInst:Information ,
+                projectInst:Error ,
+                projectInst:Documentation ,
+                projectInst:Test ;
+        bcfOWL:hasUser
+                <http://example.org/Jeroen/profile/card#me> ,
+                <http://example.org/Jyrki/profile/card#me> ,
+                <http://example.org/Oliver/profile/card#me> .
+
+#### TODO: Add extension data ####
+
+projectInst:Low
+        a       bcfOWL:Priority .
+

@@ -1,0 +1,20 @@
+@prefix projectInst:  	<http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/> .
+@prefix xsd: 	        <http://www.w3.org/2001/XMLSchema#> .
+@prefix bcfOWL:         <http://lbd.arch.rwth-aachen.de/bcfOWL/> .
+@prefix commentInst:    </> .
+
+commentInst:
+        a       bcfOWL:Comment ;
+        bcfOWL:hasAuthor
+                <http://example.org/Oliver/profile/card#me> ;
+        bcfOWL:hasComment
+                "Please add the window in the office." ;
+        bcfOWL:hasCommentDate
+                "2022-01-16T16:27:05+00:00"^^xsd:dateTime ;
+        bcfOWL:hasGuid
+                "58328755-903f-46eb-8f94-ed481d5b0f46" ;
+        bcfOWL:hasTopic
+                <http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/Topics/3e6f1076-4070-4585-a8cb-a24ff6e17869> ;
+        bcfOWL:hasViewpoint
+                <http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/Topics/3e6f1076-4070-4585-a8cb-a24ff6e17869/Viewpoints/b0bb8e67-a147-489f-b256-27c4f0765cdc> .
+                # TODO: If we link the viewpoint like this, how do we know if it points to the image or the ttl? Do we have to include the file ending here? Or do we call the snapshot "GUID_snapshot"?

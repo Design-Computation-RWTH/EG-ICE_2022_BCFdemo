@@ -1,0 +1,41 @@
+@prefix projectInst:  	<http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/> .
+@prefix xsd: 	        <http://www.w3.org/2001/XMLSchema#> .
+@prefix bcfOWL:         <http://lbd.arch.rwth-aachen.de/bcfOWL/> .
+@prefix bcfSolid:       <http://lbd.arch.rwth-aachen.de/bcfSolid/> .
+@prefix viewpointInst:  </> .
+
+viewpointInst:
+        a       bcfOWL:Viewpoint ;
+        bcfOWL:hasDefaultVisibility
+                false ;
+        bcfOWL:hasGuid
+                "351551e1-6d1c-46df-94e5-508f7546aa5c" ;
+        bcfOWL:hasPerspectiveCamera
+                viewpointInst:PerspectiveCamera_inst ;
+        bcfOWL:hasProject
+                projectInst: ;
+        bcfOWL:hasSnapshot
+                <http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/Topics/8c0eeb7a-0fe6-4eab-9f0e-06ed39ca0337/Viewpoints/351551e1-6d1c-46df-94e5-508f7546aa5c/snapshot.png> ; #TODO: Check in OWL
+        bcfOWL:hasSnapshotType
+                "png" ;
+        bcfOWL:hasTopic
+                <http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/Topics/8c0eeb7a-0fe6-4eab-9f0e-06ed39ca0337> ;
+        bcfOWL:openingsVisible
+                false ;
+        bcfOWL:spaceBoundariesVisible
+                false ;
+        bcfOWL:spacesVisible
+                false .
+
+viewpointInst:PerspectiveCamera_inst
+        a       bcfOWL:PerspectiveCamera ;
+        bcfOWL:hasAspectRatio
+                "0.46875"^^xsd:float ;
+        bcfOWL:hasCameraDirection
+                "POINT Z(-0.962 0.045 -0.266)"^^geo:wktLiteral ;
+        bcfOWL:hasCameraUpVector
+                "POINT Z(-0.266 0.012 0.963)"^^geo:wktLiteral ;
+        bcfOWL:hasCameraViewPoint
+                "POINT Z(18.584 23.165 4.300)"^^geo:wktLiteral ;
+        bcfOWL:hasFieldOfView
+                "60.0"^^xsd:float .
