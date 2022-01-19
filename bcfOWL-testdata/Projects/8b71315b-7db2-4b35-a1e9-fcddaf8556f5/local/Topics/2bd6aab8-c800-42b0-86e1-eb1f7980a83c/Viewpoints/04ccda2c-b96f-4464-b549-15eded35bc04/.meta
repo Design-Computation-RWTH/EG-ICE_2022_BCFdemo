@@ -1,0 +1,41 @@
+@prefix projectInst:  	<http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/> .
+@prefix xsd: 	        <http://www.w3.org/2001/XMLSchema#> .
+@prefix bcfOWL:         <http://lbd.arch.rwth-aachen.de/bcfOWL#> .
+@prefix geo:            <http://www.opengis.net/ont/geosparql#> .
+@prefix viewpointInst:  <> .
+
+viewpointInst:
+        a       bcfOWL:Viewpoint ;
+        bcfOWL:hasDefaultVisibility
+                false ;
+        bcfOWL:hasGuid
+                "04ccda2c-b96f-4464-b549-15eded35bc04" ;
+        bcfOWL:hasPerspectiveCamera
+                viewpointInst:PerspectiveCamera ;
+        bcfOWL:hasProject
+                projectInst: ;
+        bcfOWL:hasSnapshot
+                <http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/local/Topics/2bd6aab8-c800-42b0-86e1-eb1f7980a83c/Viewpoints/04ccda2c-b96f-4464-b549-15eded35bc04/snapshot.png> ; #TODO: Check in OWL TODO: In BCF API the .png is normally omitted
+        bcfOWL:hasSnapshotType
+                "png" ;
+        bcfOWL:hasTopic
+                <http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/local/Topics/2bd6aab8-c800-42b0-86e1-eb1f7980a83c> ;
+        bcfOWL:openingsVisible
+                false ;
+        bcfOWL:spaceBoundariesVisible
+                false ;
+        bcfOWL:spacesVisible
+                false .
+
+viewpointInst:PerspectiveCamera
+        a       bcfOWL:PerspectiveCamera ;
+        bcfOWL:hasAspectRatio
+                "0.46875"^^xsd:float ;
+        bcfOWL:hasCameraDirection
+                "POINT Z(0.080543 0.975544 -0.204514)"^^geo:wktLiteral ;
+        bcfOWL:hasCameraUpVector
+                "POINT Z(-0.007 -0.022 0.999)"^^geo:wktLiteral ;
+        bcfOWL:hasCameraViewPoint
+                "POINT Z(14.425 11.793 1.092)"^^geo:wktLiteral ;
+        bcfOWL:hasFieldOfView
+                "60.0"^^xsd:float .

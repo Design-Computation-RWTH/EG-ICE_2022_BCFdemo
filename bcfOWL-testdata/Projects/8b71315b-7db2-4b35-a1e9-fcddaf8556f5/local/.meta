@@ -1,0 +1,48 @@
+@prefix projectInst:    <> .
+@prefix xsd: 	        <http://www.w3.org/2001/XMLSchema#> .
+@prefix bcfOWL:         <http://lbd.arch.rwth-aachen.de/bcfOWL#> .
+
+projectInst:
+        a       bcfOWL:Project ;
+        bcfOWL:hasGuid
+                "8b71315b-7db2-4b35-a1e9-fcddaf8556f5" ;
+        bcfOWL:hasName
+                "bcfOWL-testdata" ;
+        bcfOWL:hasTopicsContainer
+                <./Topics/> ;
+        bcfOWL:hasPriority
+                projectInst:Low ,
+                projectInst:Medium ,
+                projectInst:High ;
+        bcfOWL:hasTopicStatus
+                projectInst:Active ,
+                projectInst:Closed ,
+                projectInst:Resolved ;
+        bcfOWL:hasTopicType
+                projectInst:Issue ;
+        bcfOWL:hasUser
+                <http://example.org/Jeroen/profile/card#me> ,
+                <http://example.org/Jyrki/profile/card#me> ,
+                <http://example.org/Oliver/profile/card#me> .
+
+projectInst:Low
+        a       bcfOWL:Priority .
+
+projectInst:Medium
+        a       bcfOWL:Priority .
+
+projectInst:High
+        a       bcfOWL:Priority .
+
+projectInst:Active
+        a       bcfOWL:TopicStatus .
+
+projectInst:Closed
+        a       bcfOWL:TopicStatus .
+
+projectInst:Resolved
+        a       bcfOWL:TopicStatus .
+
+projectInst:Issue
+        a       bcfOWL:TopicType .
+

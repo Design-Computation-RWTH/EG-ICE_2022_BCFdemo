@@ -1,0 +1,27 @@
+@prefix projectInst:  	<http://example.org/pod/bcfOWL-testdata/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/> .
+@prefix xsd: 	        <http://www.w3.org/2001/XMLSchema#> .
+@prefix bcfOWL:         <http://lbd.arch.rwth-aachen.de/bcfOWL#> .
+@prefix topicInst:      <> .
+
+topicInst:
+        a       bcfOWL:Topic ;
+        bcfOWL:hasAssignedTo
+                <http://example.org/Jyrki/profile/card#me> ;
+        bcfOWL:hasCreationAuthor
+                <http://example.org/Oliver/profile/card#me> ;
+        bcfOWL:hasCreationDate
+                "2022-01-16T16:29:03+00:00"^^xsd:dateTime ;
+        bcfOWL:hasGuid
+                "7b02e7ec-794b-4437-bd3a-5566ede0cfe2" ;
+        bcfOWL:hasPriority
+                projectInst:Normal ;
+        bcfOWL:hasTitle
+                "Wall is too long" ;
+        bcfOWL:hasTopicStatus
+                projectInst:Active ;
+        bcfOWL:hasTopicType
+                projectInst:Issue ;
+        bcfOWL:hasCommentsContainer
+                <./Comments/> ;
+        bcfOWL:hasViewpointsContainer
+                <./Viewpoints/> .
