@@ -1,0 +1,9 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+<#committed> a vcard:Group ;
+	dc:created "2022-02-22T22:22:22Z"^^xsd:dateTime ;
+	dc:modified "2022-02-22T22:22:22Z"^^xsd:dateTime ;
+	vcard:hasMember <http://localhost:3000/oliver/profile/card#me> ,
+            <https://localhost:3000/jeroen/profile/card#me> .

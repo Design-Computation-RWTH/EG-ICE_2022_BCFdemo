@@ -1,0 +1,23 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+
+<#partners>
+    a acl:Authorization;
+    acl:agentGroup <http://localhost:3000/office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/groups#commited> , 
+        <http://localhost:3002/structure-office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/groups#commited>;
+    acl:accessTo <./>;
+    acl:default <./>;
+    acl:mode acl:Read.
+
+<#us>
+    a acl:Authorization;
+    acl:agentGroup <http://localhost:3001/hvac-office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/groups#commited> ;
+    acl:accessTo <./>;
+    acl:default <./>;
+    acl:mode acl:Read, acl:Write, acl:Append .
+
+<#manager>
+    a acl:Authorization;
+    acl:agent <http://localhost:3001/jyrki/profile/card#me> ;
+    acl:accessTo <./>;
+    acl:default <./>;
+    acl:mode acl:Read, acl:Write, acl:Append .
