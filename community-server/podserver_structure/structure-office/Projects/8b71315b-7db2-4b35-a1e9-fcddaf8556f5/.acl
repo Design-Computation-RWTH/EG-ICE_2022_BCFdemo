@@ -20,4 +20,4 @@
     acl:agent <http://localhost:3002/jakob/profile/card#me> ;
     acl:accessTo <./>;
     acl:default <./>;
-    acl:mode acl:Read, acl:Write, acl:Append .
+    acl:mode acl:Read, acl:Write, acl:Append, acl:Control .
