@@ -1,0 +1,5 @@
+@prefix lbds: <https://w3id.org/lbdserver#> .
+
+<> lbds:aggregates <http://localhost:3000/office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/local/> ,
+    <http://localhost:3001/hvac-office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/local/> ,
+    <http://localhost:3002/structure-office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/local/> .
