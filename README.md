@@ -2,6 +2,10 @@
 The data in this repository is part of a research project on the organisation of federated construction projecst, with a focus on issue communication with the BIM Collaboration Format (BCF). In this research, project stakeholders maintain their own contributions to the project, and link to those of other stakeholders using [Linked Data](https://www.w3.org/DesignIssues/LinkedData.html). To organise this project, we make use of the Web specifications provided by the [Solid Project](https://solidproject.org/). The paper describing this research is currently under review. 
 
 ## Setup
+
+**Important Note: If you want to try out the dataset you can either setup the different WebIDs by naming them the same way as they are named here in this dataset, or for the sake of simplicity use the PublicAccess branch. In this branch all routes are publicly available and no additional setup is needed.**
+
+
 This repository contains a sample project, based on a BIM model of the Design Computation Chair at RWTH Aachen University. In this example, three office-related Solid Pods were set up, on three different instances of the [Solid Community Server](https://github.com/solid/community-server), an open source implementation of the Solid specifications. On each Solid server, one or more "employee pods" were created, who interact with the project.
 
 * Server 1 (PORT: 3000, startup: npm run start:server_architect):
