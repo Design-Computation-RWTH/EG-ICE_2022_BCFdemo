@@ -1,23 +1,26 @@
-@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+# Root ACL resource for the agent account
+@prefix acl: <http://www.w3.org/ns/auth/acl#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
 
-<#partners>
+# The homepage is readable by the public
+<#public>
     a acl:Authorization;
-    acl:agentGroup <http://localhost:3000/office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/groups#commited> , 
-        <http://localhost:3002/structure-office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/groups#commited>;
+    acl:agentClass foaf:Agent;
     acl:accessTo <./>;
-    acl:default <./>;
     acl:mode acl:Read.
 
-<#us>
+# The owner has full access to every resource in their pod.
+# Other agents have no access rights,
+# unless specifically authorized in other .acl resources.
+<#owner>
     a acl:Authorization;
-    acl:agentGroup <http://localhost:3001/hvac-office/Projects/8b71315b-7db2-4b35-a1e9-fcddaf8556f5/groups#commited> ;
+    acl:agent <http://localhost:3000/jeroen/profile/card#me>;
+    # Optional owner email, to be used for account recovery:
+    acl:agent <mailto:jeroen@example.org>;
+    # Set the access to the root storage folder itself
     acl:accessTo <./>;
+    # All resources will inherit this authorization, by default
     acl:default <./>;
-    acl:mode acl:Read, acl:Write, acl:Append .
-
-<#manager>
-    a acl:Authorization;
-    acl:agent <http://localhost:3001/jyrki/profile/card#me> ;
-    acl:accessTo <./>;
-    acl:default <./>;
-    acl:mode acl:Read, acl:Write, acl:Append .
+    # The owner has all of the access modes allowed
+    acl:mode
+        acl:Read, acl:Write, acl:Control.
